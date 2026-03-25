@@ -48,8 +48,8 @@ import io
 ADMIN_ID = 1081724526
 
 # Bakong Configuration - REPLACE WITH YOUR ACTUAL CREDENTIALS
-BAKONG_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiMzYyZTU0Y2RmNDk2NDUzNSJ9LCJpYXQiOjE3NzAyNzc1MDgsImV4cCI6MTc3ODA1MzUwOH0.aOBTstZ-w_f7LqyUUd-KQ3jjxBlSywOnEFx4-CMVHVQ"
-BAKONG_ACCOUNT = "soung_layhorth@trmc"
+BAKONG_TOKEN = "=====Your Bakong Token Here====="
+BAKONG_ACCOUNT = "=====Your Bakong Account Here====="
 MERCHANT_NAME = "CV Generator Service"
 MERCHANT_CITY = "Phnom Penh"
 MERCHANT_PHONE = "85512345678"
@@ -1496,7 +1496,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def main():
-    TOKEN = "8240802425:AAHqsMTTFfQmIYtOBxb6wGV3xIhwF8N_2lU"
+    TOKEN = "=====Your Bot Token Here====="
     
     # Configure timeouts
     from telegram.request import HTTPXRequest
